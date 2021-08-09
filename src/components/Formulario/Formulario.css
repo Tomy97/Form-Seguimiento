@@ -1,0 +1,26 @@
+.Formulario {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.opciones-radio {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.opciones-radio .radio {
+    width: 50%;
+    display: inline-flex;
+}
+
+span {
+    color: black;
+}
+
+table tr.fila-chica .form-group {
+    margin-bottom: 0;
+}
+
+table tr.fila-chica .form-group .radio {
+    margin: 0;
+}
